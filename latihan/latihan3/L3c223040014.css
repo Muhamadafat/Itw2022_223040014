@@ -1,0 +1,33 @@
+body {
+  background-color: aqua;
+  font-family: georgia;
+  text-align: justify;
+}
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+h4 {
+  text-align: right;
+  font-style: italic;
+}
+.afat {
+  color: white;
+  font-variant: small-caps;
+}
+.p1 {
+  color: orange;
+  text-align: center;
+}
+.p2 {
+  text-align: right;
+}
+.afat:hover {
+  color: red;
+}
+.mark:hover {
+  color: white;
+  background-color: blue;
+}
