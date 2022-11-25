@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern CSS</title>
+    <style>
+        body {
+            height: 1000px;
+        }
+        .kotak1 {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(250, 128, 114 , 0.1);
+            margin: auto;
+            margin-top: -100px;
+            border-radius: 50px 0 50px 0;
+            opacity: 1;
+            position: relative;
+            z-index: 10;
+            overflow: hidden;
+
+        }
+
+        p { 
+            position: relative;
+            top: 100px;
+
+        }
+
+        .kotak2 {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: auto;
+            box-shadow: 10px 15px 5px cyan,  -10px -10px 10px black;    
+        }
+        h1 {
+            text-align: center;
+            margin-top: 100px;
+            font-family: Arial;
+            font-size: 50px;
+            box-shadow: 5px 5px 10px black;
+            text-shadow: 5px 5px 10px red;
+        }
+
+        .kotak3 {
+            width: 200px;
+            height: 200px;
+            background-color: lightgreen;
+            margin: auto;
+            font-size: 50px;
+            text-align: center;
+            line-height: 200px;
+            transition: 5s 3s;
+        }
+
+        .kotak3:hover {
+            transform: rotate(720deg);
+            background-color: violet;
+            border-radius: 50%;
+        }
+    </style>    
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae incidunt sapiente accusantium modi nihil maiores, consequatur minima magnam. Aliquid consequuntur voluptas nisi culpa quibusdam repellendus! Consectetur numquam perferendis cumque in dolores aspernatur mollitia ea accusamus eos, suscipit quia beatae sit ex possimus dolorum fuga dolor hic expedita placeat dignissimos nisi?</p>
+    <div class="kotak1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, dolor.</div>
+
+    <div class="kotak2"></div>
+    <H1>Muhamad Alfath Septian</H1>
+
+    <div class="kotak3">1</div>
+</body>
+</html>
